@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100%;
+    font-family: "Lato", sans-serif;
+    background: rgb(11, 19, 19);
+}
+.title {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+}
+.title span {
+    color: rgb(240, 16, 16);
+    font-weight: 800;
+}
+.task_input {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.task_input input {
+    padding: 0.5rem 1rem;
+    height: 50px;
+    outline: none;
+    background-color: #fff;
+    width: 450px;
+    font-size: 1.15rem;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+    border-width: 0;
+    border: none;
+}
+.task_input .addButton {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(240, 16, 16);
+    cursor: pointer;
+} 
+.addButton:hover {
+    opacity: 0.7;
+}
+.task_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+}
+.tasks {
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #fff;
+}
+.tasks .task {
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    width: 350px;
+    font-size: 1.4rem;
+}
+.editButton, .editButton:focus {
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(240, 16, 16);
+    font-size: 1.4rem;
+    margin: 0 0.75rem;
+}
+
+.removeButton, .removeButton:focus {
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(195, 236, 11);
+    font-size: 1.4rem;
+    margin: 0 0.75rem;
+    border-width: 0
+}
